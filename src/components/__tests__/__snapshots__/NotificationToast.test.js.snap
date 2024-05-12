@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NotificationToast > renders the correct style for success 1`] = `
+"<div role="alert" class="notification notification--success">
+  <p class="notification__text"></p><button title="close" class="notification__button"> ✕ </button>
+</div>"
+`;

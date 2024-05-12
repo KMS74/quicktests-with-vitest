@@ -1,11 +1,15 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import PostCard from './components/PostCard.vue'
+// import { ref } from 'vue'
+// import NotificationToast from './components/NotificationToast.vue'
+
+// const message = ref('Image uploaded successfully')
+
+// const clearNotification = () => {
+//   message.value = ''
+// }
 </script>
 
 <template>
-    <HelloWorld msg="You did it!" />
+  <PostCard />
 </template>
-
-<style scoped>
-
-</style>
